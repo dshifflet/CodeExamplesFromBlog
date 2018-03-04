@@ -1,6 +1,7 @@
 # Code From My Blog (dshifflet.com/blog)
 
-```   _____          _        ______                     __  __         ____  _             
+```   
+   _____          _        ______                     __  __         ____  _             
   / ____|        | |      |  ____|                   |  \/  |       |  _ \| |            
  | |     ___   __| | ___  | |__ _ __ ___  _ __ ___   | \  / |_   _  | |_) | | ___   __ _ 
  | |    / _ \ / _` |/ _ \ |  __| '__/ _ \| '_ ` _ \  | |\/| | | | | |  _ <| |/ _ \ / _` |
@@ -11,4 +12,5 @@
 ```
 ## OVERVIEW:
 Code Examples from my Blog
+
 /OdpNetCoreExample - ODP.Net Beta with .Net Core
