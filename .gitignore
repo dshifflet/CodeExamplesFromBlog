@@ -211,3 +211,9 @@ OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lock
 OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
 OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
 OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
+OdpNetCoreExampleLinq2Db/.vs/config/applicationhost.config
+OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lock
+OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
+OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
+OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
+OdpNetCoreExampleLinq2Db/assemblies/Oracle.ManagedDataAccess.dll
