@@ -47,8 +47,11 @@ namespace Northwind.Tests
             //What this does?
             //Given a namespace look for classes we have registered with Linq2Db
             //and change the table name to schema_tablename.
+
+            //You could do this by hand with this, but you'd have to do every one
+            //db.MappingSchema.GetFluentMappingBuilder().Entity<Product>().HasTableName("NORTHWIND_PRODUCTS");
             
-            //Only do it once
+            //Only do this once
             if (_namesChanged) return;
             _namesChanged = true;
 

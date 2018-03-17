@@ -1,5 +1,6 @@
 using System.Linq;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace Northwind.Tests
 {
@@ -7,9 +8,13 @@ namespace Northwind.Tests
     {
         private readonly NorthwindSetup _setup;
 
-        public BasicTests(NorthwindDbFixture fixture)
+        //this is to display some output about the counts
+        private readonly ITestOutputHelper _output;
+
+        public BasicTests(ITestOutputHelper output, NorthwindDbFixture fixture)
         {
             _setup = fixture.Setup;
+            _output = output;
         }
 
         [Fact]
@@ -19,6 +24,7 @@ namespace Northwind.Tests
             {
                 var query = db.Product.Where(o => o.Id > 25).OrderByDescending(o => o.ProductName)
                     .ToList();
+                _output.WriteLine("Products: {0}", query.Count);
                 Assert.True(query.Any());
             }
         }

@@ -221,3 +221,5 @@ OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lo
 OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
 OdpNetCoreExampleLinq2DbWithTests/.vs/config/applicationhost.config
 OdpNetCoreExampleLinq2DbWithTests/assemblies/Oracle.ManagedDataAccess.dll
+OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
+OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
