@@ -199,7 +199,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-/CAMP.EHM.Reports/ReportEngine/Reports
 
 #connection strings
 *connectionStrings.config
