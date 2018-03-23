@@ -199,26 +199,15 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+*/sqlite3/db.lock
+*/sqlite3/storage.ide
+*/sqlite3/storage.ide-wal
+*/sqlite3/storage.ide-shm
+*/.vs/*
+.vs/*
 
 #connection strings
 *connectionStrings.config
-SqlWrangler/.vs/SqlWrangler/v15/Server/sqlite3/db.lock
-SqlWrangler/.vs/SqlWrangler/v15/Server/sqlite3/storage.ide
-/SqlWrangler/.vs/SqlWrangler/v15/Server/sqlite3/storage.ide-wal
-/SqlWrangler/.vs/SqlWrangler/v15/Server/sqlite3/storage.ide-shm
-OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lock
-OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
-OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
-OdpNetCoreExample/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
-OdpNetCoreExampleLinq2Db/.vs/config/applicationhost.config
-OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lock
-OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
-OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
-OdpNetCoreExampleLinq2Db/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
 OdpNetCoreExampleLinq2Db/assemblies/Oracle.ManagedDataAccess.dll
-OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/db.lock
-OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide
-OdpNetCoreExampleLinq2DbWithTests/.vs/config/applicationhost.config
 OdpNetCoreExampleLinq2DbWithTests/assemblies/Oracle.ManagedDataAccess.dll
-OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-shm
-OdpNetCoreExampleLinq2DbWithTests/.vs/OdpNetCoreExample/v15/Server/sqlite3/storage.ide-wal
+
