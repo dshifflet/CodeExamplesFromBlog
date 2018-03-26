@@ -208,6 +208,5 @@ FakesAssemblies/
 
 #connection strings
 *connectionStrings.config
-OdpNetCoreExampleLinq2Db/assemblies/Oracle.ManagedDataAccess.dll
-OdpNetCoreExampleLinq2DbWithTests/assemblies/Oracle.ManagedDataAccess.dll
 
+*/assemblies/Oracle.ManagedDataAccess.dll
