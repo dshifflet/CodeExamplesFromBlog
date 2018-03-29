@@ -17,11 +17,14 @@ namespace Northwind
     public static class NhFactory
     {
         public static HbmMapping[] HbmMappings { get; private set; }
+        public static Configuration Configuration { get; private set; }
 
         public static ISessionFactory CreateNhSessionFactory<TDialect, TDriver>(string connectionString, Assembly[] assemblies = null, bool showSql = true) 
             where TDialect : Dialect
             where TDriver : IDriver
         {
+            if (Configuration != null) return Configuration.BuildSessionFactory();
+
             if (assemblies == null)
             {
                 assemblies = new[] { Assembly.GetExecutingAssembly() };
@@ -56,8 +59,8 @@ namespace Northwind
                 HbmMappings.ToList().ForEach(nhConfiguration.AddMapping);
                 var assembly = Assembly.GetExecutingAssembly();
                 nhConfiguration.AddAssembly(assembly);
-                var sessionFactory = nhConfiguration.BuildSessionFactory();
-                return sessionFactory;
+                Configuration = nhConfiguration;               
+                return Configuration.BuildSessionFactory();
             }
             throw new HibernateConfigException("Unable to find any mappings for NHibernate.");
         }
