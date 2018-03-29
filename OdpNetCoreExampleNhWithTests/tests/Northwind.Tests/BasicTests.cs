@@ -54,6 +54,7 @@ namespace Northwind.Tests
             //This is an alternative to using SQL scripts
             //We have to recreate the schema because it's in memory and drops it when the connection is closed.
             new SchemaExport(NhFactory.Configuration).Execute(true, true, false, session.Connection, null);
+            
             session.Save(new Product
             {
                 Id = 1,
