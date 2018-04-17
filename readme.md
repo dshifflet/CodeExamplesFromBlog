@@ -14,3 +14,5 @@
 Code Examples from my Blog
 
 /OdpNetCoreExample - ODP.Net Beta with .Net Core
+
+http://www.dshifflet.com/blog
